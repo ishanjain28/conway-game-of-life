@@ -13,11 +13,11 @@ import (
 
 const (
 	fps                = 60
-	threshold          = 0.15
+	threshold          = 0.25
 	width              = 1000
 	height             = 1000
-	rows               = 450
-	columns            = 450
+	rows               = 400
+	columns            = 400
 	vertexShaderSource = `
 	#version 410
 	in vec3 vp;
